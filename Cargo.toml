@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "obd-core",
+    "obd-cli",
+]
+resolver = "2"

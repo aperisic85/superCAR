@@ -1,0 +1,14 @@
+[package]
+name = "obd-core"
+version = "0.1.0"
+edition = "2021"
+description = "ELM327 OBD-II core library – transport, AT init, Mode 01/03/04, DTC decoding"
+license = "MIT"
+
+[dependencies]
+serialport = { version = "4", default-features = false }
+thiserror = "1"
+log = "0.4"
+
+[dev-dependencies]
+env_logger = "0.11"
